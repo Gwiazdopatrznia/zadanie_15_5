@@ -30,10 +30,10 @@ Search = React.createClass({
 		return (
 			<input 
 				type="text"
-                onChange={this.handleChange}
-                placeholder="Tutaj wpisz wyszukiwaną frazę"
-                style={styles}
-                value={this.state.searchTerm}
+				onChange={this.handleChange}
+				placeholder="Tutaj wpisz wyszukiwaną frazę"
+				style={styles}
+				value={this.state.searchTerm}
 			/>
 		)
 	}
